@@ -105,15 +105,64 @@ header {
     align-items: center;
     padding: 100px 240px;
 }
-.title > span{
+
+.title>span {
     color: #E55473;
 }
-.hot-deal-text{
+
+.hot-deal-text {
     text-align: center;
-    /* max-width: 50%; */
 }
 
 .hot-deal-img img {
     width: 318px;
     height: 420px;
 }
+
+/* Instagram Section */
+.instagram-part {
+    padding-top: 50px;
+    padding-bottom: 128px;
+}
+
+.insta-header {
+    text-align: center;
+}
+
+.insta-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+/* latest deal section */
+.latest-deal{
+    border-radius: 80px;
+    background-image: url("/images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0 120px 0;
+}
+.deal-text {
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.subscribe input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    background: #FFF;
+    padding: 2px 0 2px 23px;
+}
+
+/* footer section */
