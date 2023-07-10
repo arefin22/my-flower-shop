@@ -138,13 +138,14 @@ header {
 }
 
 /* latest deal section */
-.latest-deal{
+.latest-deal {
     border-radius: 80px;
     background-image: url("/images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px 0 120px 0;
 }
+
 .deal-text {
     text-align: center;
 }
@@ -166,3 +167,25 @@ header {
 }
 
 /* footer section */
+footer {
+    margin-top: 128px;
+    text-align: center;
+    background: #111010;
+    padding: 100px 0;
+}
+.red-color {
+    color: #E55473;
+}
+.red-color span{
+    color: #FFFFFF;
+}
+.description-text{
+    color: #FFFFFFE5;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
