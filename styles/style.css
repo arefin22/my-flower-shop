@@ -140,7 +140,7 @@ header {
 /* latest deal section */
 .latest-deal {
     border-radius: 80px;
-    background-image: url("/images/Rectangle9.png");
+    background-image: url("./images/Rectangle9.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px 0 120px 0;
