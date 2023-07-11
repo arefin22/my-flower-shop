@@ -144,7 +144,14 @@ header {
     padding-bottom: 100px;
     background: rgba(5, 151, 160, 0.15);
 }
-.row1, .row2{
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.row2{
     display: flex;
     justify-content: center;
     align-items: center;
