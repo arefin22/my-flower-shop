@@ -137,6 +137,24 @@ header {
     gap: 24px;
 }
 
+
+/* luxury Section */
+.luxury{
+    text-align: center;
+    padding-bottom: 100px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.row1, .row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.row1 img, .row2 img{
+    width: 400px;
+    box-shadow: 5px 5px 15px rgba(71, 125, 17, 0.15) ;
+}  
 /* latest deal section */
 .latest-deal {
     border-radius: 80px;
@@ -144,6 +162,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px 0 120px 0;
+    margin-top: 128px;
 }
 
 .deal-text {
